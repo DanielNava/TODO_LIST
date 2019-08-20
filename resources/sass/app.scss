@@ -1,0 +1,101 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body{
+    background-color:#EEEEEE;
+}
+.todolist{
+    background-color:#FFF;
+    padding:20px 20px 10px 20px;
+    margin-top:30px;
+}
+.todolist h1{
+    margin:0;
+    padding-bottom:20px;
+    text-align:center;
+}
+.form-control{
+    border-radius:0;
+}
+li.ui-state-default{
+    background:#fff;
+    border:none;
+    border-bottom:1px solid #ddd;
+}
+
+li.ui-state-default:last-child{
+    border-bottom:none;
+}
+
+.todo-footer{
+    background-color:#F4FCE8;
+    margin:0 -20px -10px -20px;
+    padding: 10px 20px;
+}
+#done-items li{
+    padding:10px 0;
+    border-bottom:1px solid #ddd;
+    text-decoration:line-through;
+}
+#done-items li:last-child{
+    border-bottom:none;
+}
+#checkAll{
+    margin-top:10px;
+}
+
+.card-body.not-done{
+    background-color: #4e375947;
+}
+
+
+body,
+html {
+    background-color: #4E3759;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    outline: none;
+}
+
+#app {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.task-list .title {
+    margin: 1rem 0;
+}
+
+.task-list .card {
+    margin: 20px 0;
+}
+
+.check {
+    color: #ff3860;
+}
+
+.done {
+    color: #22c65b;
+}
+
+.check:hover {
+    color: #ff3860;
+}
+
+.check:active,
+.done:active {
+    border: none;
+}
+
+.done:hover {
+    color: #22c65b;
+}
