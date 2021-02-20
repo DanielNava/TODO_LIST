@@ -72,6 +72,13 @@
         </div>
     <hr>
 </div>
+<!--
+    ASADAs
+
+    ASDASD
+
+    ASD
+ -->
 <div class="col-md-6">
     <div class="todolist">
         <h1>Tareas Completadas </h1>
